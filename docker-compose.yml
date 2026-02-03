@@ -1,0 +1,6 @@
+services:
+  drift-guard-mcp:
+    build: .
+    image: drift-guard-mcp:local
+    # IMPORTANT: MCP is stdio-based. VS Code will start the container with -i and pipe stdio.
+    # This compose service is mainly useful for building the image.
