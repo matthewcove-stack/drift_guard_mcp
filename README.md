@@ -41,4 +41,4 @@ Create (or edit) `.vscode/mcp.json` in the repo you want to guard:
 VS Code docs on MCP server config: see Microsoft's "Use MCP servers in VS Code".
 
 ## Docker (OS-independent)
-See `README_DOCKER.md` for running this MCP server via Docker so your setup is independent of host OS.
+See `docs/README_DOCKER.md` for running this MCP server via Docker so your setup is independent of host OS.
