@@ -1,0 +1,20 @@
+product: drift-guard-mcp
+lanes:
+  dev:
+    hostnames:
+    - drift-guard-mcp.localhost
+    service: drift-guard-mcp
+    port: 8000
+    public: false
+  integration:
+    hostnames:
+    - int.drift-guard-mcp.lambiclabs.com
+    service: drift-guard-mcp
+    port: 8000
+    public: false
+  prod:
+    hostnames:
+    - drift-guard-mcp.lambiclabs.com
+    service: drift-guard-mcp
+    port: 8000
+    public: false
